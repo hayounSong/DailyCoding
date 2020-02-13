@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import static com.cookandroid.daily_coding.MainActivity.leveltest_correct;
 import static com.cookandroid.daily_coding.MainActivity.total_count;
 import static com.cookandroid.daily_coding.MainActivity.correct_count;
 import static com.cookandroid.daily_coding.MainActivity.type;
@@ -54,6 +55,7 @@ public class quiz1 extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(quiz1.this, "정답입니다~!", Toast.LENGTH_SHORT).show();
                 correct_count+=1;
+                leveltest_correct+=1;
                 finish();
                 return;
             }

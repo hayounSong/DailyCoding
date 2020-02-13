@@ -67,6 +67,12 @@
         <activity android:name=".quiz_list"/>
         <activity android:name=".community_view"/>
         <activity android:name=".ResultActivity"/>
+        <activity android:name=".video_list"/>
+        <activity android:name=".activity_youtube_player_1"/>
+        <activity android:name=".activity_youtube_player_2"/>
+        <activity android:name=".activity_youtube_player_3"/>
+        <activity android:name=".activity_youtube_player_4"/>
+        <activity android:name=".activity_youtube_player_5"/>
     </application>
 
 </manifest>

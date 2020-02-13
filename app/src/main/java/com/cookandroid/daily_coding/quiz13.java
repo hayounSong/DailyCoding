@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
+import static com.cookandroid.daily_coding.MainActivity.leveltest_correct;
 import static com.cookandroid.daily_coding.MainActivity.total_count;
 import static com.cookandroid.daily_coding.MainActivity.correct_count;
 
@@ -49,6 +51,7 @@ public class quiz13 extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(quiz13.this, "정답입니다~!", Toast.LENGTH_SHORT).show();
                 correct_count+=1;
+                leveltest_correct+=1;
                 finish();
                 return;
             }

@@ -25,6 +25,7 @@ android:layout_height="match_parent">
     android:text="취약점" />
 
 <TextView
+    android:layout_marginTop="70dp"
     android:id="@+id/text_correctrate"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -42,12 +43,16 @@ android:layout_height="match_parent">
 
 </com.github.mikephil.charting.charts.PieChart>
 
-<Button
-    android:id="@+id/btn_return"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:text="Return" />
+    <ImageButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_return"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="#005A1D1D"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_back"
+        android:text="Return" />
 
 
 </LinearLayout>

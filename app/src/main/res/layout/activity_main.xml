@@ -8,7 +8,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/yang"
+        android:padding="20dp"
+        android:text="데일리 코딩"
+        android:textSize="50dp" />
+
     <GridLayout
+        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -90,6 +101,16 @@
         android:scaleType="fitXY"
         android:src="@drawable/check_img"
         android:text="정답률 확인" />
+    <ImageButton
+        android:id="@+id/btn_levelcheck"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:fontFamily="@font/yang"
+        android:scaleType="fitXY"
+        android:src="@drawable/scorecheck_img"
+        android:text="확인" />
 
 
 </LinearLayout>
